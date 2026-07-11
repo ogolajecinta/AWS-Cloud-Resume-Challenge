@@ -36,8 +36,6 @@ header {
     margin-top: 10px;
 }
 
-/* Added empty line before rule as requested by linter */
-
 #milestone-list {
     list-style: none;
     padding: 0;
