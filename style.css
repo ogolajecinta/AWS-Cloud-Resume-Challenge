@@ -13,13 +13,16 @@ body {
     padding: 2rem;
 }
 
-header { margin-bottom: 2rem; }
+header {
+    margin-bottom: 2rem;
+}
 
 .card {
     background: var(--card-bg);
     padding: 1.5rem;
     border-radius: 16px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    /* Fixed: Using modern 'rgb' syntax with percentages */
+    box-shadow: 0 4px 6px rgb(0 0 0 / 10%);
     margin-bottom: 2rem;
 }
 
@@ -33,7 +36,13 @@ header { margin-bottom: 2rem; }
     margin-top: 10px;
 }
 
-#milestone-list { list-style: none; padding: 0; }
+/* Added empty line before rule as requested by linter */
+
+#milestone-list {
+    list-style: none;
+    padding: 0;
+}
+
 #milestone-list li {
     padding: 1rem;
     border-bottom: 1px solid #ddd;
