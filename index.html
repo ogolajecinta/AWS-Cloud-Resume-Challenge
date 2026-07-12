@@ -1,37 +1,629 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cloud DevOps Journey | Ogola Jecinta</title>
-    <link rel="stylesheet" href="style.css">
+
+    <title>Jecinta Ogola | Cloud Engineer</title>
+
+    <meta name="description"
+        content="Jecinta Ogola | Cloud Engineer | AWS Certified Solutions Architect Associate | DevOps Engineer">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/terminal.css">
+
 </head>
+
 <body>
+
+    <div class="background-blur blur-one"></div>
+    <div class="background-blur blur-two"></div>
+
     <header>
-        <h1>Ogola Jecinta</h1>
-        <p>DevOps &amp; Cloud Engineering Journey</p>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                JO<span>.</span>
+            </div>
+
+            <ul class="nav-links">
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#experience">Experience</a></li>
+
+                <li><a href="#projects">Projects</a></li>
+
+                <li><a href="#skills">Skills</a></li>
+
+                <li><a href="#leadership">Leadership</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+            <div class="nav-actions">
+
+                <button class="menu-btn">
+
+                    ☰
+
+                </button>
+
+
+                <button class="theme-btn">
+
+                    🌙
+
+                </button>
+
+            </div>
+
+        </nav>
+
     </header>
 
-    <main id="container">
-        <!-- Milestone Cards -->
-        <div class="card">
-            <h3>100 Days of Cloud</h3>
-            <p>Tracking my journey toward mastering AWS infrastructure.</p>
-            <a href="https://github.com/ogolajecinta/100DaysOfCloud" class="btn">View Repository</a>
-        </div>
+    <main>
 
-        <section class="milestones">
-            <h2>Progress Milestones</h2>
-            <ul id="milestone-list">
-                <li><span>01</span> My First Day</li>
-                <li><span>02</span> Deploying 3-tier Architecture on AWS</li>
-                <li><span>03</span> Designing a Highly Available Application</li>
-                <li><span>04</span> HA Database and NAT Gateway</li>
-                <li><span>05</span> Configuring Highly Available NAT Gateway</li>
-            </ul>
+        <section class="hero">
+
+            <div class="hero-left">
+
+                <p class="intro">
+
+                    Hi 👋🏾, I'm
+
+                </p>
+
+                <h1>
+
+                    Jecinta <br>
+
+                    <span>Ogola</span>
+
+                </h1>
+
+                <h2>
+
+                    Cloud Engineer
+
+                    <span>|</span>
+
+                    AWS Certified Solutions Architect Associate
+
+                </h2>
+
+                <p class="hero-description">
+
+                    Software Engineer transitioning into Cloud Engineering and DevOps.
+
+                    Passionate about designing scalable cloud infrastructure,
+                    building reliable systems, automating deployments and solving
+                    real-world problems through cloud technologies.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="primary-btn">
+
+                        View Projects
+
+                    </a>
+
+                    <a href="assets/docs/Jecinta_Ogola_Resume.pdf" download class="secondary-btn">
+
+                        Download Resume
+
+                    </a>
+
+                </div>
+
+                <div class="tech-stack">
+
+                    <span>AWS</span>
+
+                    <span>Docker</span>
+
+                    <span>Kubernetes</span>
+
+                    <span>Terraform</span>
+
+                    <span>GitHub Actions</span>
+
+                    <span>Linux</span>
+
+                    <span>Python</span>
+
+                    <span>Node.js</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-right">
+
+
+                <div class="terminal-window">
+
+
+                    <div class="terminal-header">
+
+                        <div class="terminal-dots">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+
+                        <p>
+                            jess@cloud:~
+                        </p>
+
+                        <span class="version-badge">
+                            v1.0.0
+                        </span>
+
+
+                    </div>
+
+
+
+                    <div class="terminal-body">
+
+
+                        <p>
+                            <span class="prompt">$</span> whoami
+                        </p>
+
+                        <!-- <p class="output">
+                            jecinta-ogola
+                        </p> -->
+
+                        <p class="output terminal-text">jecinta-ogola</p>
+
+
+                        <p>
+                            <span class="prompt">$</span> aws --version
+                        </p>
+
+                        <p class="output">
+                            AWS Certified Solutions Architect
+                        </p>
+
+
+                        <p>
+                            <span class="prompt">$</span> kubectl get pods
+                        </p>
+
+                        <p class="output success">
+                            portfolio-web Running ✓
+                        </p>
+
+
+                        <p>
+                            <span class="prompt">$</span> terraform plan
+                        </p>
+
+                        <p class="output success">
+                            Infrastructure stable ✓
+                        </p>
+
+
+                        <p>
+                            <span class="prompt">$</span> docker ps
+                        </p>
+
+                        <p class="output success">
+                            cloud-portfolio-container
+                        </p>
+
+
+                        <div class="terminal-status">
+
+                            <span></span>
+
+                            System Operational
+
+                        </div>
+
+                        <div class="deployment-card">
+
+
+                            <div class="deployment-header">
+
+                                <h4>
+                                    Deployment Status
+                                </h4>
+
+                                <span class="status-live">
+                                    LIVE
+                                </span>
+
+                            </div>
+
+
+                            <div class="deployment-item">
+
+                                <span>
+                                    Environment
+                                </span>
+
+                                <strong>
+                                    Production
+                                </strong>
+
+                            </div>
+
+
+                            <div class="deployment-item">
+
+                                <span>
+                                    Platform
+                                </span>
+
+                                <strong>
+                                    AWS Ready
+                                </strong>
+
+                            </div>
+
+
+                            <div class="deployment-item">
+
+                                <span>
+                                    Pipeline
+                                </span>
+
+                                <strong>
+                                    GitHub Actions
+                                </strong>
+
+                            </div>
+
+
+                            <div class="deployment-item">
+
+                                <span>
+                                    Version
+                                </span>
+
+                                <strong>
+                                    1.0.0
+                                </strong>
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <section class="architecture">
+
+                <div class="section-header">
+
+                    <p class="section-tag">
+                        Infrastructure View
+                    </p>
+
+                    <h2>
+                        How This Portfolio Runs
+                    </h2>
+
+                    <p>
+                        Designed with cloud engineering principles:
+                        automation, scalability and reliability.
+                    </p>
+
+                </div>
+
+
+                <div class="architecture-flow">
+
+
+                    <div class="architecture-card">
+
+                        <span>
+                            👩🏾‍💻
+                        </span>
+
+                        <h3>
+                            Visitor
+                        </h3>
+
+                        <p>
+                            User accesses portfolio
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="architecture-arrow">
+                        →
+                    </div>
+
+
+
+                    <div class="architecture-card">
+
+                        <span>
+                            🌐
+                        </span>
+
+                        <h3>
+                            GitHub
+                        </h3>
+
+                        <p>
+                            Source Control
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="architecture-arrow">
+                        →
+                    </div>
+
+
+
+                    <div class="architecture-card">
+
+                        <span>
+                            ⚙️
+                        </span>
+
+                        <h3>
+                            GitHub Actions
+                        </h3>
+
+                        <p>
+                            CI/CD Pipeline
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="architecture-arrow">
+                        →
+                    </div>
+
+
+
+                    <div class="architecture-card">
+
+                        <span>
+                            ☁️
+                        </span>
+
+                        <h3>
+                            AWS
+                        </h3>
+
+                        <p>
+                            S3 + CloudFront
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+            </section>
+
         </section>
+
+        <section id="about" class="placeholder">
+
+            <h2>About Me</h2>
+
+            <p>
+
+                Coming in Phase 2
+
+            </p>
+
+        </section>
+
+        <section id="experience" class="placeholder">
+
+            <h2>Experience</h2>
+
+            <p>
+
+                Coming in Phase 2
+
+            </p>
+
+        </section>
+
+        <section id="projects" class="placeholder">
+
+            <h2>Projects</h2>
+
+            <p>
+
+                Coming in Phase 3
+
+            </p>
+
+        </section>
+
+        <section id="skills" class="placeholder">
+
+            <h2>Skills</h2>
+
+            <p>
+
+                Coming in Phase 2
+
+            </p>
+
+        </section>
+
+        <section id="leadership" class="leadership">
+
+            <div class="section-header">
+
+                <p class="section-tag">
+                    Beyond Engineering
+                </p>
+
+                <h2>
+                    Leadership & Impact
+                </h2>
+
+                <p>
+                    Building technology solutions while empowering the next generation of innovators.
+                </p>
+
+            </div>
+
+
+            <div class="leadership-grid">
+
+
+                <div class="leadership-card">
+
+                    <div class="leadership-icon">
+                        👩🏾‍💻
+                    </div>
+
+                    <h3>
+                        Women in Technology
+                    </h3>
+
+                    <p>
+                        Championing diversity in technology through mentorship,
+                        community engagement and creating opportunities for young women
+                        exploring software engineering and cloud careers.
+                    </p>
+
+                </div>
+
+
+
+                <div class="leadership-card">
+
+                    <div class="leadership-icon">
+                        ☁️
+                    </div>
+
+                    <h3>
+                        Cloud & Digital Transformation
+                    </h3>
+
+                    <p>
+                        Passionate about leveraging cloud technologies,
+                        automation and scalable systems to solve real-world
+                        business and societal challenges.
+                    </p>
+
+                </div>
+
+
+
+                <div class="leadership-card">
+
+                    <div class="leadership-icon">
+                        🎤
+                    </div>
+
+                    <h3>
+                        Technology Advocacy
+                    </h3>
+
+                    <p>
+                        Sharing knowledge through speaking engagements,
+                        mentorship and conversations around technology,
+                        innovation and the future of digital ecosystems.
+                    </p>
+
+                </div>
+
+
+                <div class="leadership-card">
+
+                    <div class="leadership-icon">
+                        🌍
+                    </div>
+
+                    <h3>
+                        Community Impact
+                    </h3>
+
+                    <p>
+                        Supporting digital skills development and encouraging
+                        more young people to pursue careers in technology.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <section id="contact" class="placeholder">
+
+            <h2>Contact</h2>
+
+            <p>
+
+                Let's build something amazing together.
+
+            </p>
+
+        </section>
+
     </main>
 
-    <script src="script.js"></script>
+    <footer>
+
+        <p>
+
+            Designed & Built by
+
+            <strong>Jecinta Ogola</strong>
+
+            © 2026
+
+        </p>
+
+    </footer>
+
+    <script src="assets/js/theme.js"></script>
+
+    <script src="assets/js/app.js"></script>
+
+    <script src="assets/js/terminal.js"></script>
+
 </body>
+
 </html>

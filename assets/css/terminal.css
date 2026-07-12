@@ -1,0 +1,145 @@
+.terminal-window {
+
+    background: #050505;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    border: 1px solid rgba(255, 255, 255, .12);
+
+    box-shadow:
+
+        0 20px 60px rgba(0, 0, 0, .5);
+
+    font-family: "JetBrains Mono", monospace;
+
+}
+
+
+
+.terminal-header {
+
+    height: 55px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 0 20px;
+
+    background: #111;
+
+    border-bottom: 1px solid rgba(255, 255, 255, .08);
+
+}
+
+
+
+.terminal-header p {
+
+    color: #94a3b8;
+
+    font-size: .85rem;
+
+}
+
+
+
+.terminal-dots {
+
+    display: flex;
+
+    gap: 8px;
+
+}
+
+
+
+.terminal-dots span {
+
+    width: 12px;
+
+    height: 12px;
+
+    border-radius: 50%;
+
+    background: #64748b;
+
+}
+
+
+
+.terminal-body {
+
+    padding: 30px;
+
+    font-size: .85rem;
+
+    line-height: 1.8;
+
+}
+
+
+
+.prompt {
+
+    color: #22d3ee;
+
+}
+
+
+
+.output {
+
+    color: #cbd5e1;
+
+    margin-left: 15px;
+
+}
+
+
+
+.success {
+
+    color: #4ade80;
+
+}
+
+
+
+.terminal-status {
+
+    margin-top: 25px;
+
+    padding: 10px;
+
+    border-radius: 12px;
+
+    background: rgba(34, 211, 238, .1);
+
+    color: #22d3ee;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+}
+
+
+
+.terminal-status span {
+
+    width: 10px;
+
+    height: 10px;
+
+    background: #22c55e;
+
+    border-radius: 50%;
+
+}
