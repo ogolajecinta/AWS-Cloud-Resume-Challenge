@@ -1,0 +1,501 @@
+/* ==========================================
+   Large Tablets & Small Laptops
+========================================== */
+
+@media (max-width: 1100px) {
+
+
+    .hero {
+
+        grid-template-columns: 1fr;
+
+        text-align: center;
+
+        padding-top: 140px;
+
+    }
+
+
+    .hero-description {
+
+        margin-left: auto;
+
+        margin-right: auto;
+
+    }
+
+
+    .hero-buttons {
+
+        justify-content: center;
+
+    }
+
+
+    .tech-stack {
+
+        justify-content: center;
+
+    }
+
+
+    .hero-right {
+
+        display: flex;
+
+        justify-content: center;
+
+        margin-top: 50px;
+
+    }
+
+
+    .terminal-window {
+
+        width: 450px;
+
+    }
+
+
+}
+
+
+
+/* ==========================================
+   Tablets
+========================================== */
+
+
+@media (max-width:850px) {
+
+
+    .navbar {
+
+        width: 95%;
+
+        padding: 15px 20px;
+
+    }
+
+
+
+    .nav-links {
+
+        display: none;
+
+    }
+
+
+
+    .hero h1 {
+
+        font-size: 3.5rem;
+
+    }
+
+
+
+    .hero h2 {
+
+        font-size: 1.1rem;
+
+    }
+
+
+
+    .leadership-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+
+    .placeholder {
+
+        padding: 50px 25px;
+
+    }
+
+
+
+}
+
+
+
+/* ==========================================
+   Mobile Devices
+========================================== */
+
+
+@media (max-width:600px) {
+
+
+    body {
+
+        overflow-x: hidden;
+
+    }
+
+
+
+    .navbar {
+
+        margin-top: 10px;
+
+        border-radius: 15px;
+
+    }
+
+
+
+    .logo {
+
+        font-size: 1.3rem;
+
+    }
+
+
+
+    .hero {
+
+        width: 92%;
+
+        padding-top: 120px;
+
+        gap: 40px;
+
+    }
+
+
+
+    .hero h1 {
+
+        font-size: 2.8rem;
+
+    }
+
+
+
+    .hero h2 {
+
+        line-height: 1.7;
+
+    }
+
+
+
+    .hero-description {
+
+        font-size: .95rem;
+
+        line-height: 1.8;
+
+    }
+
+
+
+    .hero-buttons {
+
+
+        flex-direction: column;
+
+
+        width: 100%;
+
+
+    }
+
+
+
+    .primary-btn,
+    .secondary-btn {
+
+
+        width: 100%;
+
+
+        text-align: center;
+
+
+    }
+
+
+
+    .tech-stack {
+
+
+        gap: 8px;
+
+
+    }
+
+
+
+    .tech-stack span {
+
+
+        font-size: .75rem;
+
+
+        padding: 8px 12px;
+
+
+    }
+
+
+
+
+    .terminal-window {
+
+
+        width: 100%;
+
+
+        border-radius: 15px;
+
+
+    }
+
+
+
+    .terminal-body {
+
+
+        padding: 20px;
+
+
+        font-size: .72rem;
+
+
+        overflow-x: auto;
+
+
+    }
+
+
+
+    .terminal-header {
+
+
+        height: 45px;
+
+
+    }
+
+
+
+    .section-header h2 {
+
+
+        font-size: 2rem;
+
+
+    }
+
+
+
+    .leadership {
+
+
+        width: 92%;
+
+
+    }
+
+
+
+    .leadership-card {
+
+
+        padding: 25px;
+
+
+    }
+
+
+
+    footer {
+
+
+        padding: 30px 20px;
+
+
+        font-size: .85rem;
+
+
+    }
+
+
+}
+
+
+
+/* ==========================================
+   Very Small Screens
+========================================== */
+
+
+@media (max-width:380px) {
+
+
+
+    .hero h1 {
+
+        font-size: 2.3rem;
+
+    }
+
+
+
+    .terminal-body {
+
+        font-size: .65rem;
+
+    }
+
+
+}
+
+.menu-btn {
+
+    display: none;
+
+    background: none;
+
+    border: none;
+
+    font-size: 1.5rem;
+
+    color: var(--white);
+
+    cursor: pointer;
+
+    transition: .3s ease;
+
+}
+
+
+.menu-btn:hover {
+
+    color: var(--primary);
+
+}
+
+
+
+@media(max-width:850px) {
+
+
+    .menu-btn {
+
+        display: block;
+
+    }
+
+
+    .nav-actions {
+
+        display: flex;
+
+        gap: 15px;
+
+        align-items: center;
+
+    }
+
+
+    .nav-links.active {
+
+        display: flex;
+
+        position: absolute;
+
+        top: 80px;
+
+        left: 0;
+
+        right: 0;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        padding: 30px;
+
+
+        background: var(--bg);
+
+
+        backdrop-filter: blur(20px);
+
+
+        border: 1px solid var(--glass-border);
+
+
+        border-radius: 20px;
+
+
+        box-shadow: var(--shadow);
+
+    }
+
+}
+
+@media(max-width:600px) {
+
+
+    .deployment-card {
+
+
+        width: 100%;
+
+
+    }
+
+
+
+    .deployment-item {
+
+
+        font-size: .8rem;
+
+
+    }
+
+
+
+    .version-badge {
+
+
+        font-size: .65rem;
+
+
+    }
+
+
+}
+
+@media(max-width:850px){
+
+
+.architecture-flow{
+
+
+    flex-direction:column;
+
+
+}
+
+
+
+.architecture-arrow{
+
+
+    transform:rotate(90deg);
+
+
+}
+
+
+}
